@@ -1,0 +1,6 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^catalog\.json$ catalog.php [L]
+RewriteRule ^packs/([^/]+)$ packs.php?file=$1 [L,QSA]
+RewriteRule ^thumbs/([^/]+)$ thumbs.php?file=$1 [L,QSA]

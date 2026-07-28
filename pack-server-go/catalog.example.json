@@ -1,0 +1,37 @@
+{
+  "name": "Local Pack Repo",
+  "packs": [
+    {
+      "id": "kpop-vol1",
+      "name": "K-Pop Vol 1",
+      "author": "DJ Foo",
+      "size": 154857600,
+      "songs": 42,
+      "image": "https://i.blogs.es/d86db0/meme-fry-1/450_1000.jpg",
+      "url": "http://localhost:8090/packs/kpop-vol1.zip",
+      "type": "songpackage",
+      "version": "1.2.0"
+    },
+    {
+      "id": "boss-challenge",
+      "name": "Boss Challenge",
+      "author": "Team XS",
+      "size": 88080384,
+      "songs": 12,
+      "url": "http://localhost:8090/packs/boss-challenge.zip",
+      "type": "songpackage",
+      "version": "1.0.0"
+    },
+    {
+      "id": "my-noteskin",
+      "name": "My Noteskin",
+      "author": "Jane",
+      "size": 5242880,
+      "image": "http://localhost:8090/thumbs/my-noteskin.png",
+      "url": "http://localhost:8090/packs/my-noteskin.zip",
+      "type": "userpackage",
+      "version": "1.0.0",
+      "crc32": "a1b2c3d4"
+    }
+  ]
+}
